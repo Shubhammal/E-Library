@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Books</title>
+        <link rel="stylesheet" type="text/css" href="books.css">
+    </head>
+
+    <body id="bodyy">
+        <div id="titlee">
+            <h2 style="text-align:center; color:rgb(0, 0, 0); ">Books Details</h2>
+        </div>
+        <div id="abcd">
+            <div>
+                <form action="/add-book" method="post">
+                    <div>
+                        <label for="title">
+                            <h4>title</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="text" id="title" name="title" required></div>
+                        <br>
+                        <label for="author">
+                            <h4>author</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="text" id="author" name="author" required></div>
+                        <br>
+                        <label for="publisher_id">
+                            <h4>publisher_id</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="number" id="publisher_id" name="publisher_id"
+                                required></div>
+                        <br>
+                        <label for="publication_date">
+                            <h4>publication_date</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="date" id="publication_date"
+                                name="publication_date" required></div><br>
+                        <label for="isbn">
+                            <h4>isbn</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="text" id="isbn" name="isbn" required></div><br>
+                        <label for="description">
+                            <h4>description</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="text" id="description" name="description"
+                                required></div><br>
+                        <label for="genre">
+                            <h4>genre</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="text" id="genre" name="genre" required></div>
+                        <br>
+                        <label for="total_copies">
+                            <h4>total_copies</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="number" id="total_copies" name="total_copies"
+                                required></div><br>
+                        <label for="available_copies">
+                            <h4>available_copies</h4>
+                        </label>
+                        <div><input style="color:rgb(12, 12, 12)" type="number" id="available_copies"
+                                name="available_copies" required></div><br>
+
+                    </div>
+                    <div><input class="button" type="submit">
+                        <button class="button" type="reset">Reset</button>
+                    </div><br>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

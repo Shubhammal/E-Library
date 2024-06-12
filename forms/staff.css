@@ -1,0 +1,37 @@
+#abcd {
+    text-align: center;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    display: table;
+    background-color: rgb(231, 235, 238);
+    margin: auto;
+    margin-top: 3vh;
+
+}
+
+#abcd div {
+    margin: 10px;
+}
+
+#bodyy {
+    background-color: rgb(34, 50, 57);
+}
+
+
+#abcd label {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+
+#title {
+    background-color: rgb(240, 232, 10);
+    margin-left: 40vw;
+    margin-right: 40vw;
+    border-radius: 10px;
+}
+
+#abcd div div div {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}

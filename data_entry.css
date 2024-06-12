@@ -1,0 +1,52 @@
+#bodyy {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("imgs/ryunosuke-kikuno-FKqxZ58bVjU-unsplash.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+
+}
+
+#bodyy p {
+    margin-top: 20px;
+    background-color: #ffc400;
+    margin-left: -10px;
+}
+
+#div1 {
+    height: 280px;
+    width: 300px;
+    background-color: #ffc400;
+    margin-top: 0vh;
+    margin-left: 38vw;
+    border-radius: 30px;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+#div1 div a {
+    text-decoration: none;
+    color: white;
+}
+
+#div1 p {
+    margin-top: -5px;
+    font-size: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+#div1 div {
+    background-color: rgb(48, 48, 83);
+    margin-top: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 40%;
+}
+
+#div1 div a h2:hover {
+    color: rgb(4, 249, 236);
+}
